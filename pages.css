@@ -575,6 +575,8 @@ color:#989898;
   /*catherine byun tablet logo is displayed */
   .title2{
     display:inline;
+
+    font-size: 18px;
   }
 
   /*catherine byun desktop logo is hidden */
