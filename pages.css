@@ -413,13 +413,13 @@ text-decoration: none;
   letter-spacing: 4px;
   line-height:1.75em;
   font-family: 'Lato', sans-serif;
-  margin-bottom: 30px;
+  margin-bottom: 23px;
   margin-top: -5px;
 }
 
 .info-page-text{
   color:#989898;
-  font-size: 13px;
+  font-size: 15px;
   margin-bottom: 15.2px;
   font-weight: 400;
   letter-spacing: 1px;
@@ -429,7 +429,7 @@ text-decoration: none;
 
 .info-page-para-2{
   color:#989898;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 400;
   letter-spacing: 1px;
   line-height:1.75em;
@@ -517,13 +517,35 @@ text-decoration: none;
 }
 
 .mailchimp-text{
-font-size: 10px;
+font-size: 15px;
 font-weight: 400;
 letter-spacing: 1px;
 line-height:1.75em;
 font-family: 'Lato', sans-serif;
 color:#989898;
 }
+
+.contact-buttons{
+  display: inline;
+}
+
+.buttons-contact{
+margin-top: 23px;
+margin-bottom: 40px;
+}
+
+.get-in-touch{
+  background-color: inherit;
+  color:#989898;
+  border: solid 1px #989898;
+  font-family: inherit;
+  font-weight: 100;
+}
+.contact-btn-right{
+  float:right;
+  padding-right: 40px;
+}
+
 
 
 
@@ -569,16 +591,27 @@ color:#989898;
   .Autumn2{
     width:70%;
   }
+
+  /*info page */
+  .info-page-hello{
+    margin-top: 20px;
+  }
 }
 
 /*all pages ->  tablet*/
 @media screen and (max-width: 991px){
 
   /*catherine byun tablet logo is displayed */
-  .title2{
+ .title2{
     display:inline;
-    font-size: 18px;
+    font-size: 24px;
   }
+
+  /*info page */
+  .info-page-hello{
+    margin-top: 20px;
+  }
+
 
   /*catherine byun desktop logo is hidden */
   .catherine, .catherine1{
@@ -631,5 +664,13 @@ margin-right: 0px;
 padding-right: 0px;
 }
   }
+
+  @media screen and (min-width: 0px) and (max-width: 350px){
+
+   .title2{
+    display:inline;
+    font-size: 18px;
+  }
+}
 
 
