@@ -546,8 +546,22 @@ margin-bottom: 40px;
   padding-right: 40px;
 }
 
+.info-page-contact{
+  color:#59D6D6;
+}
 
+ul#icons-info{
+  padding-left: 0px;
+  color:#59D6D6;
+}
 
+.icons-info{
+color:#59D6D6;
+}
+
+.bio-photo:hover{
+  opacity: 1;
+}
 
 
 /*MEDIA QUERIES*/
